@@ -2,10 +2,13 @@ package com.senai.manflix.controller;
 
 import com.senai.manflix.model.Assinatura;
 import com.senai.manflix.repository.AssinaturaRepository;
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.Optional;
 
+@RestController
+@Controller
 public class AssinaturaController {
 
     AssinaturaRepository assinaturaRepository;
